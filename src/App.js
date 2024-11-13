@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import React, { Fragment } from "react";
+
 import bootstrap from "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./component/Navbar";
 import ProductList from "./component/ProductList";
@@ -14,7 +13,7 @@ import Modal from "./component/Modal";
 
 function App() {
   return (
-    <React.Fragment>
+    <>
       <Navbar />
       <Routes>
         <Route exact path="/" element={<ProductList />} />
@@ -23,7 +22,7 @@ function App() {
         <Route path="*" element={<Default />} />
       </Routes>
       <Modal />
-    </React.Fragment>
+    </>
   );
 }
 
