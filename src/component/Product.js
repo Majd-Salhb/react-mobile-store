@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 export default class Product extends Component {
   render() {
-    const { id, title, img, price, company, inCart } = this.props.product;
+    const { id, img, price, company, inCart } = this.props.product;
     return (
       <ProductWrapper className="col-10 mx-auto col-md-6 col-lg-3  my-5">
         <div className="card">
