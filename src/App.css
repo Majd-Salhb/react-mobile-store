@@ -1,29 +1,4 @@
-:root {
-  --mainBlue: #2a2a72;
-  --lightBlue: #009ffd;
-  --mainWhite: #f3f3f3;
-  --mainDark: #232528;
-  --mainDark: #000;
-  --mainYellow: #ffa400;
+.container {
+  max-width: 1080px;
+  margin: 20px auto;
 }
-body{
-  background: var(--mainWhite) !important;
-   font-family: "Oswald", sans-serif;
-  color: var(--mainDark); 
-  
-   
-  
-}
-.text-title{
-  letter-spacing: 0.2rem;
-font-family: "Permanent Marker", cursive;
-
-  text-transform: uppercase;
-}
-.text-blue{
-  color: var(--mainBlue);
-}
-.text-light{
-  color: var(--lightBlue);
-}
-
